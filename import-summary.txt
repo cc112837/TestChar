@@ -1,0 +1,75 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* ic_launcher-web.png
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:19.+
+gson-2.3.1.jar => com.google.code.gson:gson:2.3.1
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => 救在你身边\src\main\AndroidManifest.xml
+* assets\ => 救在你身边\src\main\assets
+* libs\AMap_ Navi_v1.5.0_20151119.jar => 救在你身边\libs\AMap_ Navi_v1.5.0_20151119.jar
+* libs\AMap_Android_3DMapSDK_V3.1.0.jar => 救在你身边\libs\AMap_Android_3DMapSDK_V3.1.0.jar
+* libs\AMap_android_API_2DMap_Lib_V2.7.0_20151124.jar => 救在你身边\libs\AMap_android_API_2DMap_Lib_V2.7.0_20151124.jar
+* libs\AMap_Location_v2.0.0_20151117.jar => 救在你身边\libs\AMap_Location_v2.0.0_20151117.jar
+* libs\AMap_Services_V2.7.0_20151125.jar => 救在你身边\libs\AMap_Services_V2.7.0_20151125.jar
+* libs\armeabi\libgdamapv4sdk751.so => 救在你身边\src\main\jniLibs\armeabi\libgdamapv4sdk751.so
+* libs\armeabi\libgdamapv4sdk751ex.so => 救在你身边\src\main\jniLibs\armeabi\libgdamapv4sdk751ex.so
+* libs\armeabi\libmsc.so => 救在你身边\src\main\jniLibs\armeabi\libmsc.so
+* libs\armeabi\libtbt.so => 救在你身边\src\main\jniLibs\armeabi\libtbt.so
+* libs\armeabi\libwtbt.so => 救在你身边\src\main\jniLibs\armeabi\libwtbt.so
+* libs\BmobSMS_V1.0.1_20150710.jar => 救在你身边\libs\BmobSMS_V1.0.1_20150710.jar
+* libs\Msc.jar => 救在你身边\libs\Msc.jar
+* res\ => 救在你身边\src\main\res\
+* src\ => 救在你身边\src\main\java\
+
+Missing Android Support Repository:
+-----------------------------------
+Some useful libraries, such as the Android Support Library, are
+installed from a special Maven repository, which should be installed
+via the SDK manager.
+
+It looks like this library is missing from your SDK installation at:
+null
+
+To install it, open the SDK manager, and in the Extras category,
+select "Android Support Repository". You may also want to install the
+"Google Repository" if you want to use libraries like Google Play
+Services.
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

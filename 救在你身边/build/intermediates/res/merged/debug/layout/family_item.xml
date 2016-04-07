@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" 
+    android:background="#fff"
+    
+    >
+    <ImageView 
+        android:scaleType="fitXY"
+        android:id="@+id/iv_icon"
+        
+        android:layout_width="130dp"
+        android:layout_height="130dp"/>
+     <TextView
+        android:id="@+id/tv_bao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textSize="18sp"
+         />
+</LinearLayout><!-- From: file:/F:/studio/TestChar/救在你身边/src/main/res/layout/family_item.xml -->

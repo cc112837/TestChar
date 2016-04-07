@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:layout_height="match_parent"
+    tools:context="com.cc.dlasss.ItemActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#37ce80"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_return"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/back" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="小知识"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+    </LinearLayout>
+    
+
+    <ListView
+        android:id="@+id/lv_showid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#cecdcd"
+        android:dividerHeight="1dp">
+    </ListView>
+</LinearLayout>
+<!-- From: file:/F:/studio/TestChar/救在你身边/src/main/res/layout/activity_item.xml -->

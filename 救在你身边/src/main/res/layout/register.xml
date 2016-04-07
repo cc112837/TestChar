@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#f9378eec"
+        android:gravity="center"
+        android:orientation="horizontal" >
+        
+          <Button 
+              android:id="@+id/btn_back"
+              android:layout_width="30dp"
+              android:layout_height="30dp"
+              android:layout_gravity="center_vertical"
+              android:background="@drawable/back"/>
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:textColor="#fff"
+            android:text="注册" />
+             
+         </LinearLayout>
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+         android:background="#e8f0f0"
+        android:orientation="vertical" > 
+          <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:orientation="horizontal" >  
+          <EditText
+       android:id="@+id/et_phone"
+       android:layout_width="216dp"
+       android:layout_height="45dip"
+       android:layout_marginTop="20dip"
+       android:hint="请输入手机号"
+       android:textAppearance="?android:attr/textAppearanceMedium"
+       android:singleLine="true" 
+       android:maxLength="30"
+       android:textColor="#000"
+       android:textColorHighlight="#7e4d84"
+       android:ellipsize="end"
+       android:layout_marginLeft="10dp"
+       android:gravity="center_vertical"
+       android:background="@drawable/txtborder"
+      />   
+           <Button
+        android:id="@+id/Message_btn"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+      android:background="@drawable/register_normal"
+       android:text="获取验证码"
+       android:layout_marginTop="10dp"
+       android:gravity="center"
+       android:textSize="15sp"
+       android:layout_marginLeft="8dp"
+       android:layout_marginRight="8dp"
+       android:layout_gravity="center"
+       
+      />
+         </LinearLayout>
+        
+          <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:orientation="horizontal" >
+          <EditText
+       android:id="@+id/et_code"
+       android:layout_width="216dp"
+       android:layout_height="45dip"
+       android:hint="请输入验证码"
+       android:textAppearance="?android:attr/textAppearanceMedium"
+       android:singleLine="true" 
+       android:ellipsize="end"
+       android:layout_marginTop="10dip"
+       android:gravity="center_vertical"
+        android:textColor="#000"
+       android:background="@drawable/txtborder"
+        android:layout_marginLeft="10dp"
+      />
+            
+         </LinearLayout>
+          <EditText
+       android:id="@+id/register_name"
+       android:layout_width="216dp"
+       android:layout_height="45dip"
+       android:textColor="#000"
+       android:password="true"
+       android:hint="请输入您的昵称"
+       android:textAppearance="?android:attr/textAppearanceMedium"
+       android:singleLine="true" 
+       android:ellipsize="end"
+       android:layout_marginTop="10dip"
+        android:layout_marginLeft="10dp"
+       android:layout_gravity="center_vertical"
+       android:background="@drawable/txtborder"
+       android:paddingRight="2dp"/>
+           <EditText
+       android:id="@+id/register_password"
+       android:layout_width="216dp"
+       android:layout_height="45dip"
+       android:textColor="#000"
+       android:password="true"
+       android:hint="请输入密码"
+       android:textAppearance="?android:attr/textAppearanceMedium"
+       android:singleLine="true" 
+       android:ellipsize="end"
+       android:layout_marginTop="10dip"
+        android:layout_marginLeft="10dp"
+       android:layout_gravity="center_vertical"
+       android:background="@drawable/txtborder"
+       android:paddingRight="2dp"/>
+           <EditText
+       android:id="@+id/register_password_again"
+       android:layout_width="216dp"
+       android:layout_height="45dip"
+       android:textColor="#000"
+       android:password="true"
+       android:hint="请再次输入密码"
+       android:textAppearance="?android:attr/textAppearanceMedium"
+       android:singleLine="true" 
+       android:ellipsize="end"
+       android:layout_marginTop="10dip"
+        android:layout_marginLeft="10dp"
+       android:layout_gravity="center_vertical"
+       android:background="@drawable/txtborder"
+       android:paddingRight="2dp"/>
+           <LinearLayout
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="20dp"
+               android:layout_marginTop="10dp"
+               android:orientation="horizontal" >
+               <CheckBox
+                   android:id="@+id/chk_agree"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                  
+                   android:drawablePadding="4dp"
+                   android:padding="2dp"
+                   android:text="已阅读并同意"
+                   android:textColor="#888888" />
+               <TextView
+                   android:id="@+id/tv_QQ_Server"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:clickable="true"
+                   android:text="《救在身边服务条款》"
+                   android:textColor="#5858f8" />
+           </LinearLayout>
+           
+           <Button
+        android:id="@+id/register_btn"
+       android:layout_width="280dip"
+       android:layout_height="45dip"
+       android:layout_marginTop="15dip"
+       android:text="注册"
+       android:gravity="center"
+       android:layout_gravity="center"
+       android:background="@drawable/button_style"
+      />
+      </LinearLayout>    
+       
+</LinearLayout>

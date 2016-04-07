@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tongxin">
+    <item>手机/固话</item>
+    <item>QQ</item>
+    <item>邮箱</item>
+    <item>飞信</item>
+    <item>旺旺</item>
+    <item>MSN</item>
+    <item>其它</item>
+    </string-array>
+    </resources>

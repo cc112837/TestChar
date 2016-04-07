@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="speak">
+        <item>患者本人</item>
+        <item>医生</item>
+    </string-array>
+    <string-array name="guomin">
+        <item>皮肤过敏</item>
+        <item>皮肤过敏 </item>
+        <item>皮肤过敏</item>
+        <item>皮肤过敏</item>
+        <item>皮肤过敏</item>
+    </string-array>
+    <string-array name="confirm">
+        <item>可靠</item>
+        <item>一般</item>
+        <item>不可靠</item>
+    </string-array>
+</resources>

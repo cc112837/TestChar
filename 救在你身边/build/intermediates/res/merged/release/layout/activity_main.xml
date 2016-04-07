@@ -1,0 +1,79 @@
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+      <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.0" />
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.0"
+            android:visibility="gone" 
+            />
+
+        <LinearLayout
+            android:id="@+id/console_line_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/main_navigation_background"
+            android:orientation="horizontal" >
+
+            <RadioGroup
+                
+                android:id="@+id/main_tab_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="@drawable/main_navigation_background"
+                android:gravity="bottom"
+                android:orientation="horizontal"
+               
+                
+                >
+
+                <RadioButton
+             
+            android:id="@+id/rb_home"
+            style="@style/main_tab_bottom"
+            android:checked="true"
+            android:drawableTop="@drawable/btn_tab_home_selector"
+            android:text="救助地图" />
+
+        <RadioButton
+             
+            android:id="@+id/rb_family"
+            style="@style/main_tab_bottom"
+            android:drawableTop="@drawable/btn_tab_gov_selector"
+            android:text="急救包" />
+
+        <RadioButton
+            
+            android:id="@+id/rb_knowledge"
+            style="@style/main_tab_bottom"
+            android:drawableTop="@drawable/btn_tab_smart_selector"
+            android:text="急救知识" />
+
+        
+
+        <RadioButton
+             
+            android:id="@+id/rb_personal"
+            style="@style/main_tab_bottom"
+            android:drawableTop="@drawable/btn_tab_setting_selector"
+            android:text="个人中心" />
+    </RadioGroup>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</TabHost><!-- From: file:/F:/studio/TestChar/救在你身边/src/main/res/layout/activity_main.xml -->

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".WomanActivity">
+
+    <RelativeLayout
+      android:id="@+id/ll_top"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#f9378eec"
+         
+        >
+         <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:text="小知识"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true">
+         </TextView>
+           
+         <ImageView
+        android:id="@+id/iv_search"
+        android:layout_width="20dip"
+        android:layout_height="20dip"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/lib_story_img_search_bt"
+        />
+       </RelativeLayout>
+    <ImageView
+        android:id="@+id/iv_class"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/child"
+        android:layout_gravity="center" />
+
+    <Button
+
+        android:layout_width="150dp"
+        android:layout_height="350dp"
+        android:layout_marginLeft="120dp"
+        android:button="@null"
+        android:background="#00000000"
+        android:id="@+id/btn_child"
+        android:layout_gravity="left|center_vertical" />
+
+
+    <Button
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:button="@null"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="320dp"
+        android:background="@drawable/bg_sex_man"
+        android:id="@+id/btn_sex_man"
+        />
+    <Button
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:button="@null"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="360dp"
+        android:background="@drawable/bg_sex_feman"
+        android:id="@+id/btn_sex_women"
+        />
+    <Button
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:button="@null"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="400dp"
+        android:background="@drawable/ico_home_user_1"
+        android:id="@+id/btn_sex_child"
+        />
+
+</FrameLayout>

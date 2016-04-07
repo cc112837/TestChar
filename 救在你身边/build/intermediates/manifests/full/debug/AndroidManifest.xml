@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.save"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/hospital"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="b735900e07b3c5bd13886859fcfd596d" />
+        <!-- 定位需要的服务 使用2.0的定位需要加上这个 -->
+        <service android:name="com.amap.api.location.APSService" />
+
+        <activity
+            android:name="com.henli.user.aty.GuideActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.henli.user.aty.RadioButtonActivity" />
+        <activity android:name="com.henli.user.aty.FamilyActivity" />
+        <activity android:name="com.henli.user.aty.HomeActivity" />
+        <activity android:name="com.henli.user.aty.KnowledgeActivity" />
+        <activity android:name="com.henli.user.aty.PersonalActivity" />
+        <activity android:name="com.henli.user.aty.LoginActivity" />
+        <activity android:name="com.henli.user.aty.DetailActivity" />
+        <activity android:name="com.henli.user.aty.RegisterActivity" />
+        <activity android:name="com.henli.user.aty.GPSNaviActivity" />
+        <activity android:name="com.henli.user.aty.CollectNextActivity" />
+        <activity android:name="com.henli.user.aty.SettingActivity" />
+        <activity android:name="com.henli.user.aty.FanKuiActivity" />
+        <activity android:name="com.henli.user.aty.BingliActivity" />
+        <activity android:name="com.henli.user.aty.MymoneyActivity" />
+        <activity android:name="com.henli.user.aty.ItemActivity" />
+        <activity android:name="com.henli.user.aty.MycollectActivity" />
+        <activity android:name="com.henli.user.aty.SearchActivity" />
+        <activity android:name="com.henli.driver.aty.DriverActivity" />
+        <activity android:name="com.henli.user.aty.ChildDrugActivity" />
+        <activity android:name="com.henli.user.aty.DrugActivity" />
+    </application>
+
+</manifest>

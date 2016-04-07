@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/govaffairs_press" android:state_checked="true"/>
+    <item android:drawable="@drawable/govaffairs"/>
+
+</selector><!-- From: file:/F:/studio/TestChar/救在你身边/src/main/res/drawable/btn_tab_gov_selector.xml -->

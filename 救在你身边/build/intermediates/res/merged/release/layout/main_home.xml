@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <RelativeLayout
+      android:id="@+id/ll_top"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#106184"
+         
+        >
+           <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+           
+            android:text="急救地图"
+            android:textSize="20sp"
+            android:textColor="#fff"
+             android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true">
+         </TextView>
+       </RelativeLayout>
+       
+      <com.amap.api.maps2d.MapView
+        android:id="@+id/map"
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+       <RelativeLayout
+        android:id="@+id/rl_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#afff"
+        >
+           
+         <ImageView
+            android:id="@+id/iv_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:src="@drawable/g1"
+             />
+           <TextView
+            android:id="@+id/tv_save"
+            android:layout_toRightOf="@id/iv_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_centerVertical="true"
+            android:text="120"
+            android:textSize="25sp"
+            android:textColor="#f00"
+             />
+           <TextView
+            android:id="@+id/tv_myloc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="共享位置"
+            android:layout_marginRight="5dp"
+            android:textSize="20sp"
+            android:textColor="@drawable/share_loc"
+             />
+        
+       </RelativeLayout>
+       
+      
+</LinearLayout>
+<!-- From: file:/F:/studio/TestChar/救在你身边/src/main/res/layout/main_home.xml -->
