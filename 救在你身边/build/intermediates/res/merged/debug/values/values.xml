@@ -45,7 +45,7 @@
     </string-array>
     <!-- From: file:/F:/studio/TestChar/救在你身边/src/main/res/values/colors.xml -->
     <eat-comment/>
-    <color name="bg_topbar">#106184</color>
+    <color name="bg_topbar">#f9435d96</color>
     <color name="black">#000000</color>
     <color name="btn_login_disabled">#e1e1e3</color>
     <color name="btn_login_normal">#f15353</color>

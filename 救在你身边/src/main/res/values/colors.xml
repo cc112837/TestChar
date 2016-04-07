@@ -12,7 +12,7 @@
     <color name="btn_login_disabled">#e1e1e3</color>
     <color name="btn_login_normal">#f15353</color>
      <!-- topbar背景色 -->
-    <color name="bg_topbar">#f9378eec</color>
+    <color name="bg_topbar">#f95d89df</color>
     <color name="sc_transparent_background">#00111111</color>
     <drawable name="android_layout_bg">#f2f3f5</drawable>
     </resources>

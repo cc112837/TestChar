@@ -163,7 +163,7 @@ public class FamilyActivity extends Activity implements OnClickListener {
 			break;
 		case R.id.ll_outdoor:
 			intent=new Intent(FamilyActivity.this,ChildDrugActivity.class);
-			intent.putExtra("key", "伤");
+			intent.putExtra("key", "外用");
 			intent.putExtra("title","户外用药");
 			startActivity(intent);
 

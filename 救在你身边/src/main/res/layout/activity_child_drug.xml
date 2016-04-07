@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:gravity="center"
-        android:background="#f9378eec" >
+        android:background="@color/bg_topbar" >
         <Button
             android:id="@+id/btn_can"
             android:layout_width="30dp"
