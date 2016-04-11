@@ -8,7 +8,7 @@
         android:id="@+id/ll_top"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-          android:background="#e8e8eb" >
+        android:background="@color/bg_topbar" >
 
         <TextView
             android:id="@+id/tv_title"
@@ -17,7 +17,7 @@
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
             android:text="急救包"
-            android:textColor="#df1334"
+            android:textColor="#fff"
             android:textSize="20sp" >
         </TextView>
     </RelativeLayout>

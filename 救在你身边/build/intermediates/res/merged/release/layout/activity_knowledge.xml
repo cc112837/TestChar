@@ -11,7 +11,7 @@
       android:id="@+id/ll_top"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:background="#106184"
+        android:background="@color/bg_topbar"
          
         >
          <TextView

@@ -25,7 +25,7 @@
             android:layout_width="match_parent"
             android:layout_height="55dp"
             android:layout_alignParentBottom="true"
-            android:background="@drawable/main_navigation_background"
+            android:background="@color/bg_topbar"
             android:orientation="horizontal" >
 
             <RadioGroup
@@ -34,11 +34,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom"
-                android:background="@drawable/main_navigation_background"
                 android:gravity="bottom"
                 android:orientation="horizontal"
-               
-                
                 >
 
                 <RadioButton

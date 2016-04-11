@@ -12,11 +12,25 @@ android {
 
     buildTypes {
         release {
-            minifyEnabled true
+            minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
 
     }
+    productFlavors {
+
+        wandoujia {}
+        baidu {}
+        c360 {}
+        baidu91 {}
+        xiaomi{}
+
+        productFlavors.all { flavor ->
+            flavor.manifestPlaceholders = [UMENG_CHANNEL_VALUE: name]
+        }
+
+    }
+
 }
 
 dependencies {
